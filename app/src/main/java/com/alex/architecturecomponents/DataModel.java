@@ -11,7 +11,7 @@ public class DataModel {
             public void run() {
                 callback.onDataReady("New Data");
             }
-        }, 1500);
+        }, 3000);
     }
 
     interface onDataReadyCallback {
